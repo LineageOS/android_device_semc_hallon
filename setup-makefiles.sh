@@ -102,6 +102,8 @@ vendor/__VENDOR__/__DEVICE__/proprietary/libcald_server.so:system/lib/libcald_se
 vendor/__VENDOR__/__DEVICE__/proprietary/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \\
+vendor/__VENDOR__/__DEVICE__/proprietary/libface.so:system/lib/libface.so \\
+vendor/__VENDOR__/__DEVICE__/proprietary/libgemini.so:system/lib/libgemini.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libcameralight.so:system/lib/libcameralight.so
 
 ## FIRMWARE

@@ -66,7 +66,11 @@ PRODUCT_COPY_FILES += \
     device/semc/hallon/prebuilt/hostapd.conf:system/etc/wifi/softap/hostapd.conf \
     device/semc/hallon/modules/sdio.ko:root/modules/sdio.ko \
     device/semc/hallon/modules/tiap_drv.ko:root/modules/tiap_drv.ko \
-    device/semc/hallon/modules/tiwlan_drv.ko:root/modules/tiwlan_drv.ko
+    device/semc/hallon/modules/tiwlan_drv.ko:root/modules/tiwlan_drv.ko \
+    device/semc/smultron/prebuilt/10dnsconf:system/etc/init.d/10dnsconf \
+    device/semc/smultron/prebuilt/10hostapconf:system/etc/init.d/10hostapconf \
+    device/semc/smultron/prebuilt/dnsmasq.conf:system/etc/wifi/dnsmasq.conf \
+
 
 # semc msm7x30 uses high-density artwork where available
 PRODUCT_LOCALES += hdpi
@@ -105,4 +109,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.compcache.default=0 \
     ro.product.locale.language=en \
     ro.product.locale.region=US \
+    persist.ro.ril.sms_sync_sending=1 \
+    ro.use_data_netmgrd=true \
+    wifi.hotspot.ti=1 \
     BUILD_UTC_DATE=0
